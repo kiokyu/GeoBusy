@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+
+    <head>
+        <title> Leninsky r-n </title>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Alegreya+Sans+SC:wght@900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </head>
+
+    <body>
+    <div class="pic">
+        <p class="len_back"><a href="{% url 'choice' %}"><--НАЗАД</a> </p>
+        <h1 class="len_head">Почтовый автомат можно установить:</h1>
+        <div class="len_oth">
+            <ul>
+                <li>На улице {{ x2 }}, потому что расстояние до другой почты: {{ x3 }}, район - {{ x4 }}, здание - {{ x5 }}, проходимость - {{ x6 }}, балл - 5</li>
+                <li>На улице {{ y2 }}, потому что расстояние до другой почты: {{ y3 }}, район - {{ y4 }}, здание - {{ y5 }}, проходимость - {{ y6 }}, балл - 4 </li>
+                <li>На улице {{ z2 }}, потому что расстояние до другой почты: {{ z3 }}, район - {{ z4 }}, здание - {{ z5 }}, проходимость - {{ z6 }}, балл - 3 </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+
+    <head>
+        <title> Choose </title>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Alegreya+Sans+SC:wght@900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </head>
+
+    <body>
+    <div class="pic">
+        <h1 class="choice_head">ВЫБЕРИТЕ РАЙОН:</h1>
+        <div class="choice_other">
+            <p><a href="{% url 'sovetsky' %}">Советский район</a></p>
+            <p><a href="{% url 'pervomaysky' %}">Первомайский район</a></p>
+            <p><a href="{% url 'pervorechensky' %}">Первореченский район</a></p>
+            <p><a href="{% url 'leninsky' %}">Ленинский район</a></p>
+            <p><a href="{% url 'frunzensky' %}">Фрунзенский район</a></p>
+            <p><a href="{% url 'index' %}">ВЫЙТИ</a> </p>
+        </div>
+    </div>
+    </body>
+
+</html>

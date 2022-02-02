@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <title> Welcome </title>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Alegreya+Sans+SC:wght@900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../static/css/styles.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </head>
+
+    <body>
+    <div class="pic">
+        <!--<img src="img/rus1.jpg">-->
+        <h1 class="index_h_1">ДОБРО ПОЖАЛОВАТЬ</h1>
+        <h2 class="index_h_2">НА ГЛАВНУЮ СТРАНИЦУ ПРИЛОЖЕНИЯ GEOBUSY</h2>
+        <div class="index_other">
+            <p><a href="{% url 'signup' %}">РЕГИСТРАЦИЯ</a></p>
+            <br />
+            <br />
+            <p><a href="{% url 'login' %}">АВТОРИЗАЦИЯ</a></p>
+        </div>
+    </div>
+    </body>
+
+</html>

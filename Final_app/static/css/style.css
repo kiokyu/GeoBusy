@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+:focus, :active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    /*font-size: 14px;*/
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+/**{
+    background-image: url('../img/rus1.jpg');
+    background-repeat: round;
+}*/
+
+
+/*__________INDEX.HTML__________*/
+
+.pic{
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/rus1.jpg');
+    background-repeat: round;
+}
+.index_h_1{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 40px; color: wheat;
+    text-align: center;
+    /*border: 1px solid #000;
+    border-bottom: 0px;*/
+    padding: 30px 0px;
+    margin: 0px 500px;
+    background-color: rgb(12, 86, 165);
+}
+.index_h_2{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 25px;color: wheat;
+    text-align: center;
+    margin: 0px 500px;
+    padding: 30px 0px;
+    background-color: rgb(12, 86, 165);
+
+}
+.index_other{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 15px;color: wheat;
+    text-align: center;
+    padding: 30px 1px;
+    margin: 1px 500px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+/*__________REGISTRATION.HTML__________*/
+.pic {
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/rus1.jpg');
+    background-repeat: round;
+}
+.reg_space{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 2px;
+
+}
+.reg_back{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    margin: 150px 500px 0px;
+}
+.reg_all{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 500px;
+}
+
+
+/*__________LOGIN.HTML__________*/
+.pic {
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/rus1.jpg');
+    background-repeat: round;
+}
+.log_space{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 2px;
+}
+.log_back {
+    font-family: 'Alegreya SC', serif;;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    margin: 150px 500px 0px;
+}
+.log_all{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 500px;
+}
+
+
+
+/*__________MAINPAGE.HTML__________*/
+.pic {
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/rus1.jpg');
+    background-repeat: round;
+}
+.main_head{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;color: wheat;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(12, 86, 165);
+    margin: 0px 500px;
+}
+.main_other{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 15px;color: wheat;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 500px;
+}
+
+
+/*__________CHOICE.HTML__________*/
+.pic {
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/rus1.jpg');
+    background-repeat: round;
+}
+.choice_head{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;color: wheat;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(12, 86, 165);
+    margin: 0px 500px;
+}
+.choice_other{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 15px;color: wheat;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 500px;
+}
+
+
+
+/*__________SOVETSKY.HTML__________*/
+.pic {
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/rus1.jpg');
+    background-repeat: round;
+}
+.sov_back{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 15px;color: wheat;
+    text-indent: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.sov_head{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;color: wheat;
+    text-align: center;
+    padding: 40px 20px 5px;
+    background-color: rgb(12, 86, 165);
+}
+.sov_oth{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 15px;color: wheat;
+    text-align: center;
+    padding: 20px 20px;
+    line-height: 30px;
+    background-color: rgb(12, 86, 165);
+}
+
+
+
+/*__________PERVORECHENSKY.HTML__________*/
+.pic {
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/rus1.jpg');
+    background-repeat: round;
+}
+.perr_back{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 15px;color: wheat;
+    text-indent: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.perr_head{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;color: wheat;
+    text-align: center;
+    padding: 40px 20px 5px;
+    background-color: rgb(12, 86, 165);
+}
+.perr_oth{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 15px;color: wheat;
+    text-align: center;
+    padding: 20px 20px;
+    line-height: 30px;
+    background-color: rgb(12, 86, 165);
+}
+
+
+
+/*__________PERVOMAYSKY.HTML__________*/
+.pic {
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/rus1.jpg');
+    background-repeat: round;
+}
+.perm_back{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 15px;color: wheat;
+    text-indent: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.perm_head{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;color: wheat;
+    text-align: center;
+    padding: 40px 20px 5px;
+    background-color: rgb(12, 86, 165);
+}
+.perm_oth{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 15px;color: wheat;
+    text-align: center;
+    padding: 20px 20px;
+    line-height: 30px;
+    background-color: rgb(12, 86, 165);
+}
+
+
+
+/*__________LENINSKY.HTML__________*/
+.pic {
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/rus1.jpg');
+    background-repeat: round;
+}
+.len_back{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 15px;color: wheat;
+    text-indent: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.len_head{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;color: wheat;
+    text-align: center;
+    padding: 40px 20px 5px;
+    background-color: rgb(12, 86, 165);
+}
+.len_oth{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 15px;color: wheat;
+    text-align: center;
+    padding: 20px 20px;
+    line-height: 30px;
+    background-color: rgb(12, 86, 165);
+}
+
+
+
+/*__________FRUNZENSKY.HTML__________*/
+.pic {
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/rus1.jpg');
+    background-repeat: round;
+}
+.frun_back{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 15px;color: wheat;
+    text-indent: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.frun_head{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;color: wheat;
+    text-align: center;
+    padding: 40px 20px 5px;
+    background-color: rgb(12, 86, 165);
+}
+.frun_oth{
+    font-family: 'Alegreya SC', serif;;
+    font-size: 15px;color: wheat;
+    text-align: center;
+    padding: 20px 20px;
+    line-height: 30px;
+    background-color: rgb(12, 86, 165);
+}

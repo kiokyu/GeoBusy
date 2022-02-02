@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+
+    <head>
+        <title> Sovetsky r-n </title>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Alegreya+Sans+SC:wght@900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </head>
+
+    <body>
+    <div class="pic">
+        <p class="sov_back"><a href="{% url 'choice' %}"><--НАЗАД</a> </p>
+        <h1 class="sov_head">Почтовый автомат можно установить:</h1>
+        <div class="sov_oth">
+            <ul>
+                <li>На улице {{ x22 }}, потому что расстояние до другой почты: {{ x23 }}, район - {{ x24 }}, здание - {{ x25 }}, проходимость - {{ x26 }}, балл - 5</li>
+                <li>На улице {{ y22 }}, потому что расстояние до другой почты: {{ y23 }}, район - {{ y24 }}, здание - {{ y25 }}, проходимость - {{ y26 }}, балл - 4 </li>
+                <li>На улице {{ z22 }}, потому что расстояние до другой почты: {{ z23 }}, район - {{ z24 }}, здание - {{ z25 }}, проходимость - {{ z26 }}, балл - 3 </li>
+            </ul>
+        </div>
+    </div>
+    </body>
+
+
+</html>

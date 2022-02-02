@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+
+    <head>
+        <title> Pervomaysky r-n </title>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Alegreya+Sans+SC:wght@900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </head>
+
+    <body>
+    <div class="pic">
+        <p class="perm_back"><a href="{% url 'choice' %}"><--НАЗАД</a> </p>
+        <h1 class="perm_head">Почтовый автомат можно установить:</h1>
+        <div class="perm_oth">
+            <ul>
+                <li>На улице {{ x12 }}, потому что расстояние до другой почты: {{ x13 }}, район - {{ x14 }}, здание - {{ x15 }}, проходимость - {{ x16 }}, балл - 5</li>
+                <li>На улице {{ y12 }}, потому что расстояние до другой почты: {{ y13 }}, район - {{ y14 }}, здание - {{ y15 }}, проходимость - {{ y16 }}, балл - 4 </li>
+                <li>На улице {{ z12 }}, потому что расстояние до другой почты: {{ z13 }}, район - {{ z14 }}, здание - {{ z15 }}, проходимость - {{ z16 }}, балл - 3 </li>
+            </ul>
+        </div>
+    </div>
+    </body>
+
+</html>

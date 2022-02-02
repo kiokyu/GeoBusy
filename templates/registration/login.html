@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+
+    <head>
+        <title> Authorisation </title>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Alegreya+Sans+SC:wght@900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <meta http-equiv="Content-Type" content="text/html charset=UTF-8"/>
+    </head>
+
+    <body>
+    <div class="pic">
+        <div class="log_space">
+            .
+            <p class="log_back"><a href="{% url 'index' %}">НАЗАД</a> </p>
+            <div class="log_all">
+                <form method="post">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <br />
+                    <button type="submit">ВОЙТИ</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </body>
+
+</html>
+</br>

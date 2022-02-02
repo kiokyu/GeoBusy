@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+
+    <head>
+        <title> Fruzensky r-n </title>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Alegreya+Sans+SC:wght@900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </head>
+
+    <body>
+    <div class="pic">
+        <p class="frun_back"><a href="{% url 'choice' %}"><--НАЗАД</a> </p>
+        <h1 class="frun_head">Почтовый автомат можно установить:</h1>
+        <div class="frun_oth">
+            <ul>
+                <li>На улице {{ x7 }}, потому что расстояние до другой почты: {{ x8 }}, район - {{ x9 }}, здание - {{ x10 }}, проходимость - {{ x11 }}, балл - 5</li>
+                <li>На улице {{ y7 }}, потому что расстояние до другой почты: {{ y8 }}, район - {{ y9 }}, здание - {{ y10 }}, проходимость - {{ y11 }}, балл - 4 </li>
+                <li>На улице {{ z7 }}, потому что расстояние до другой почты: {{ z8 }}, район - {{ z9 }}, здание - {{ z10 }}, проходимость - {{ z11 }}, балл - 3 </li>
+            </ul>
+        </div>
+    </div>
+    </body>
+
+</html>
